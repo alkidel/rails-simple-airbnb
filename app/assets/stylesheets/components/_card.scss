@@ -1,0 +1,56 @@
+/* Your card CSS code here */
+.card {
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.card p {
+  font-size: 0.9em;
+  }
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  margin-left: -10px;
+  opacity: 0.3;
+}
+
+
+.card:hover {
+  margin-top: -5px;
+}
+
+.card-img {
+  height: 150px;
+  background-size: cover;
+}
+
+.card-body {
+  height: 150px;
+  color: black;
+  padding: 10px;
+
+}
+
+.card-body h4 {
+  font-size: 1.2em;
+}
+
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 35px;
+  padding:10px;
+  font-size: 0.7em;
+}
